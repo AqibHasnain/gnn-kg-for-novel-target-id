@@ -1,5 +1,5 @@
 import torch
-import torch.nn as nn
+from torch import nn
 
 from gnn_kg_target_id.config import TrainConfig
 from gnn_kg_target_id.data import TargetDataset
